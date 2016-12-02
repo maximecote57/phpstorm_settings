@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="contact" type="IDL" />
+      <mapping pattern="goal_and_title" type="JavaScript" />
+      <mapping pattern="1t" type="PHP" />
+      <mapping pattern="test" type="PHP" />
+    </extensionMap>
+  </component>
+</application>

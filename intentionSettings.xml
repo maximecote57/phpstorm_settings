@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="CSS/Replace quotes" />
+    <ignoreAction name="PHP/Replace quotes" />
+  </component>
+</application>

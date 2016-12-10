@@ -207,6 +207,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="svg-morpheus" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_SVG-Morpheus_0.1.8_svg-morpheus.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_SVG-Morpheus_0.1.8_svg-morpheus.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="tinymce" type="javaScript">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.4.1_tinymce.min.js" />

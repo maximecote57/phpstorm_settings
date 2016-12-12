@@ -3,10 +3,18 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.NavigateForeignAction">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta p" />
@@ -14,6 +22,9 @@
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="meta j" />
     <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="NewScratchBuffer">
+    <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="ParameterInfo" />
   <action id="SelectNextOccurrence">

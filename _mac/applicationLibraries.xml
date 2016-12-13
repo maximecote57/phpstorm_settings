@@ -4,10 +4,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -15,10 +17,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-animate.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-animate.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-animate.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-animate.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -26,20 +30,46 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-cookies.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-cookies.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-cookies.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-cookies.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="angular-google-maps" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-google-maps_2.3.3_angular-google-maps.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-google-maps_2.3.3_angular-google-maps.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="angular-recaptcha" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-recaptcha_3.0.3_angular-recaptcha.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-recaptcha_3.0.3_angular-recaptcha.js" />
       </CLASSES>
       <SOURCES />
     </library>
     <library name="angular-route" type="javaScript">
       <properties>
         <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-route.js" />
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-route.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-route.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-route.js" />
       </CLASSES>
       <SOURCES />
@@ -48,20 +78,24 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-sanitize.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-sanitize.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.5.3_angular-sanitize.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.angularjs.org_1.5.8_angular-sanitize.js" />
       </CLASSES>
       <SOURCES />
     </library>
     <library name="angular-translate" type="javaScript">
       <properties>
         <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-translate_2.11.1_angular-translate.js" />
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-translate_2.10.0_angular-translate.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-translate_2.11.1_angular-translate.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-translate_2.10.0_angular-translate.js" />
       </CLASSES>
       <SOURCES />
@@ -74,6 +108,28 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-translate-loader-static-files_2.10.0_angular-translate-loader-static-files.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="angulartics" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angulartics_1.2.1_angulartics.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angulartics_1.2.1_angulartics.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="angulartics-gtm" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angulartics_1.2.1_angulartics-gtm.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angulartics_1.2.1_angulartics-gtm.min.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -102,9 +158,37 @@
       <SOURCES />
     </library>
     <library name="bootstrap" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_twitter-bootstrap_3.3.7_js_bootstrap.js" />
+        </sourceFilesUrls>
+      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.6_js_bootstrap.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.5_js_bootstrap.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_twitter-bootstrap_3.3.7_js_bootstrap.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="checklist-model" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_checklist-model_0.10.0_checklist-model.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_checklist-model_0.10.0_checklist-model.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="classie" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_classie_1.0.1_classie.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_classie_1.0.1_classie.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -136,6 +220,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="Draggable" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_utils_Draggable.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_utils_Draggable.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="isMobile" type="javaScript">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_ismobilejs_0.4.0_isMobile.js" />
@@ -161,6 +256,21 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_jquery-1.11.3.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="jquery-2.2.4" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.jquery.com_jquery-2.2.4.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__code.jquery.com_jquery-2.2.4.js" />
       </CLASSES>
       <DOCUMENTATION>
         <root url="http://api.jquery.com" />
@@ -223,9 +333,26 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="lodash" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_lodash.js_4.14.2_lodash.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_lodash.js_4.14.2_lodash.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="moment-with-locales" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_moment.js_2.15.0_moment-with-locales.js" />
+        </sourceFilesUrls>
+      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_moment.js_2.14.1_moment-with-locales.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_moment.js_2.15.0_moment-with-locales.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -244,10 +371,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_ScrollMagic_2.0.3_ScrollMagic.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_ScrollMagic_2.0.5_ScrollMagic.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_ScrollMagic_2.0.3_ScrollMagic.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_ScrollMagic_2.0.5_ScrollMagic.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -259,6 +388,17 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_plugins_ScrollToPlugin.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="slick" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_slick-carousel_1.6.0_slick.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_slick-carousel_1.6.0_slick.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -283,10 +423,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_TweenMax.min.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_TweenMax.min.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_TweenMax.min.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_TweenMax.min.js" />
       </CLASSES>
       <SOURCES />
     </library>

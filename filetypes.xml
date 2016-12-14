@@ -6,6 +6,7 @@
       <mapping pattern="goal_and_title" type="JavaScript" />
       <mapping pattern="1t" type="PHP" />
       <mapping pattern="test" type="PHP" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

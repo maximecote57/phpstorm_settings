@@ -1,0 +1,7 @@
+<templateSet group="AngularJS ">
+  <template name="ngtr" value="{{&quot;&quot; | translate}}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

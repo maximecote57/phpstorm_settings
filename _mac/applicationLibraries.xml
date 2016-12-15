@@ -100,6 +100,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="angular-translate-interpolation-messageformat" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-translate-interpolation-messageformat_2.13.1_angular-translate-interpolation-messageformat.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_angular-translate-interpolation-messageformat_2.13.1_angular-translate-interpolation-messageformat.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="angular-translate-loader-static-files" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -341,6 +352,19 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_lodash.js_4.14.2_lodash.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="messageformat" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_messageformat_0.3.1_messageformat.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_messageformat_0.3.1_messageformat.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_messageformat_0.3.1_messageformat.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_messageformat_0.3.1_messageformat.js" />
       </CLASSES>
       <SOURCES />
     </library>

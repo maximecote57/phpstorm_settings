@@ -291,6 +291,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="TimelineMax" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.19.0_TimelineMax.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.19.0_TimelineMax.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="tinymce" type="javaScript">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.4.1_tinymce.min.js" />
@@ -298,9 +309,15 @@
       <SOURCES />
     </library>
     <library name="TweenMax" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.19.0_TweenMax.min.js" />
+        </sourceFilesUrls>
+      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_TweenMax.min.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.18.4_TweenMax.min.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.19.0_TweenMax.min.js" />
       </CLASSES>
       <SOURCES />
     </library>

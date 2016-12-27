@@ -7,10 +7,6 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="Console.TableResult.NavigateForeignAction">
-    <mouse-shortcut keystroke="meta button1" />
-    <mouse-shortcut keystroke="button2" />
-  </action>
   <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
@@ -19,22 +15,16 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
   </action>
-  <action id="GotoDeclaration">
-    <mouse-shortcut keystroke="meta button1" />
-    <mouse-shortcut keystroke="button2" />
-  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoTest" />
+  <action id="HippieCompletion" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="meta j" />
     <keyboard-shortcut first-keystroke="meta t" />
-  </action>
-  <action id="NewScratchBuffer">
-    <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />

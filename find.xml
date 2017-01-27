@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="File '.../fuel/app/classes/imageutils.php - [MyEvent]'" />
     <option name="defaultScopeName" value="File '.../fuel/app/classes/imageutils.php - [MyEvent]'" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="File '.../fuel/app/classes/imageutils.php - [MyEvent]'" />
   </component>
 </application>

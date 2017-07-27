@@ -19,11 +19,6 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context>
-      <option name="PHP Statement" value="true" />
-    </context>
-  </template>
   <template name="rqr" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="PHP Expression" value="true" />

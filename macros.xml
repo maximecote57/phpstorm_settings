@@ -1,0 +1,15 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="trans">
+      <shortuct text="alt 7" />
+      <typing text-keycode="53:1;32:0;84:0;82:0;65:0;78:0;83:0;76:0;65:0;84:0;69:0;32:0;46:1;46:1">%&amp;#x20;translate&amp;#x20;&quot;&quot;</typing>
+      <action id="EditorLeft" />
+      <action id="EditorPaste" />
+      <action id="EditorRight" />
+      <typing text-keycode="32:0;53:1">&amp;#x20;%</typing>
+      <shortuct text="alt 7" />
+      <action id="EditorBackSpace" />
+      <shortuct text="alt 8" />
+    </macro>
+  </component>
+</application>

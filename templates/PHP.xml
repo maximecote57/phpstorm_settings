@@ -85,4 +85,10 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="getf" value="&lt;?php echo get_field(''); ?&gt;" shortcut="SPACE" description="default php and echo get_field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

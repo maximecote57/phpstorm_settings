@@ -7,6 +7,7 @@
       <mapping pattern="goal_and_title" type="JavaScript" />
       <mapping pattern="1t" type="PHP" />
       <mapping pattern="test" type="PHP" />
+      <mapping pattern=".hgrc" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="_htaccess" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />

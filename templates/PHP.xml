@@ -91,4 +91,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="eco" value="&lt;?php echo ; ?&gt;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>

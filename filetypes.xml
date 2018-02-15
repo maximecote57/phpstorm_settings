@@ -6,7 +6,6 @@
       <mapping ext="vue" type="HTML" />
       <mapping ext="erb" type="HTML" />
       <mapping pattern="contact" type="IDL" />
-      <mapping ext="cjsx" type="JSX Harmony" />
       <mapping pattern="goal_and_title" type="JavaScript" />
       <mapping pattern="test" type="PHP" />
       <mapping pattern="1t" type="PHP" />
@@ -15,6 +14,8 @@
       <mapping pattern="_htaccess" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping pattern="cjsx" type="textmate" />
+      <mapping ext="cjsx" type="textmate" />
     </extensionMap>
   </component>
 </application>

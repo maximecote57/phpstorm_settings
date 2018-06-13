@@ -17,7 +17,6 @@
       <mapping pattern=".hgrc" type="PLAIN_TEXT" />
       <mapping pattern="ItemsListOptions.jsx" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
-      <mapping pattern="cjsx" type="textmate" />
     </extensionMap>
   </component>
 </application>

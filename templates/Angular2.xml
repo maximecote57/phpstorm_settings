@@ -67,38 +67,38 @@
     <variable name="CSS_CLASS" expression="" defaultValue="&quot;cssClass&quot;" alwaysStopAt="true" />
     <variable name="EXPRESSION" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="ng2-ngFor" value="*ngFor=&quot;let $ITEM$ of $LIST$&quot;" description="Angular2 ngFor" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="LIST" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="ng2-ngIf" value="*ngIf=&quot;$EXPRESSION$&quot;" description="Angular2 ngIf" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="EXPRESSION" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="ng2-ngModel" value="[(ngModel)]=&quot;$BINDING$&quot;" description="Angular2 ngModel" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="BINDING" expression="" defaultValue="&quot;binding&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="ng2-ngStyle" value="[ngStyle]=&quot;{$STYLE$: $EXPRESSION$}&quot;" description="Angular2 ngStyle" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="STYLE" expression="" defaultValue="&quot;style&quot;" alwaysStopAt="true" />
     <variable name="EXPRESSION" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="ng2-ngSwitch" value="&lt;div [ngSwitch]=&quot;$CONDITION_EXPRESSION$&quot;&gt;&#10;    &lt;div *ngSwitchWhen=&quot;$EXPRESSION$&quot;&gt;$OUTPUT$&lt;/div&gt;&#10;    &lt;div *ngSwitchDefault&gt;$DEFAULT_OUTPUT$&lt;/div&gt;&#10;&lt;/div&gt;" description="Angular2 ngSwitch" toReformat="false" toShortenFQNames="true" deactivated="true">
@@ -113,8 +113,8 @@
   <template name="ng2-routerLink" value="[routerLink]=&quot;['$ROUTE_NAME$']&quot;" description="Angular2 routerLink" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="ROUTE_NAME" expression="" defaultValue="&quot;routeName&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="ng2-routing" value="import { NgModule } from '@angular/core';&#10;import { Routes, RouterModule } from '@angular/router';&#10;&#10;import { $COMPONENT_NAME$Component } from './$NAME$.component';&#10;&#10;const routes: Routes = [&#10;  { path: '$PATH$', component: $COMPONENT_NAME$Component },&#10;];&#10;&#10;@NgModule({&#10;  imports: [RouterModule.for$CHILD_OR_ROOT$(routes)],&#10;  exports: [RouterModule],&#10;})&#10;export class $COMPONENT_NAME$RoutingModule { }&#10;&#10;export const routedComponents = [$COMPONENT_NAME$Component];" description="Angular 2 routing file" toReformat="false" toShortenFQNames="true" deactivated="true">

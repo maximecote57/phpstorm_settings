@@ -1,5 +1,5 @@
 <templateSet group="html/xml">
-  <template name="tr" value="{% translate &quot;&quot; %}" toReformat="false" toShortenFQNames="true">
+  <template name="tr" value="{% translate &quot;&quot; %}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>

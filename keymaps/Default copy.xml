@@ -9,6 +9,11 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="meta e_with_acute" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Diff.ShowDiff" />

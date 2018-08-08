@@ -9,4 +9,10 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="act" value="export const $ITEM$_ERROR = '$ITEM$_ERROR';&#10;export const $ITEM$_REQUEST = '$ITEM$_REQUEST';&#10;export const $ITEM$_SUCCESS = '$ITEM$_SUCCESS';" description="Create api actions" toReformat="false" toShortenFQNames="true">
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

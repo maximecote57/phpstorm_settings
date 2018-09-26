@@ -11,6 +11,7 @@
       <mapping pattern="test" type="PHP" />
       <mapping pattern="1t" type="PHP" />
       <mapping pattern="_htaccess" type="PLAIN_TEXT" />
+      <mapping pattern="dasdas" type="PLAIN_TEXT" />
       <mapping pattern="PlaylistDetailHeader.vue" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />

@@ -7,9 +7,11 @@
     <option name="HTML_ATTRIBUTE_WRAP" value="0" />
     <option name="HTML_KEEP_LINE_BREAKS" value="false" />
   </HTMLCodeStyleSettings>
-  <codeStyleSettings language="HTML">
+  <codeStyleSettings language="CoffeeScript">
     <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">

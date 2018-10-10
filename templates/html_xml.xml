@@ -4,4 +4,9 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="rt" value="&lt;%= t('$SELECTION$') %&gt;" description="Rails traduction" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>

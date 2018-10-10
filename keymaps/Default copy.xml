@@ -53,6 +53,10 @@
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="Macro.half_field2">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="meta b" />
   </action>

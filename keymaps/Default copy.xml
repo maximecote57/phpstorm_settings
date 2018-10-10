@@ -17,6 +17,10 @@
   <action id="CompareTwoFiles" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Diff.ShowDiff" />
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta c_with_cedilla" />
+  </action>
   <action id="EditorDuplicate" />
   <action id="EditorGutterToggleGlobalIndentLines">
     <keyboard-shortcut first-keystroke="meta i" />

@@ -13,6 +13,7 @@
       <mapping pattern="dasdas" type="PLAIN_TEXT" />
       <mapping pattern="PlaylistDetailHeader.vue" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="homepage" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />

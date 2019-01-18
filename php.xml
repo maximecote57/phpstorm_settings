@@ -7,26 +7,25 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/Applications/MAMP/bin/php/php5.6.10/bin/php" id="2e93d109-2a6a-4f81-b1af-3cc492c41655" name="PHP" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/Applications/MAMP/bin/php/php7.0.12/bin/php" id="2e93d109-2a6a-4f81-b1af-3cc492c41655" name="PHP" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP">
-        <phpinfo binary_type="PHP" php_cgi="/Applications/MAMP/bin/php/php5.6.10/bin/php-cgi" php_cli="/Applications/MAMP/bin/php/php5.6.10/bin/php" path_separator=":" version="5.6.10">
+        <phpinfo binary_type="PHP" php_cgi="/Applications/MAMP/bin/php/php7.0.12/bin/php-cgi" php_cli="/Applications/MAMP/bin/php/php7.0.12/bin/php" path_separator=":" version="7.0.12">
           <additional_php_ini />
-          <configuration_file>/Applications/MAMP/bin/php/php5.6.10/conf/php.ini</configuration_file>
+          <configuration_file>/Applications/MAMP/bin/php/php7.0.12/conf/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="0" />
-            <configuration_option name="always_populate_raw_post_data" value="0" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
-            <configuration_option name="asp_tags" value="" />
             <configuration_option name="assert.active" value="1" />
             <configuration_option name="assert.bail" value="0" />
             <configuration_option name="assert.callback" value="" />
+            <configuration_option name="assert.exception" value="0" />
             <configuration_option name="assert.quiet_eval" value="0" />
             <configuration_option name="assert.warning" value="1" />
             <configuration_option name="auto_append_file" value="" />
@@ -48,7 +47,7 @@
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
-            <configuration_option name="display_errors" value="" />
+            <configuration_option name="display_errors" value="1" />
             <configuration_option name="display_startup_errors" value="" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
@@ -67,7 +66,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/Applications/MAMP/bin/php/php5.6.10/lib/php/extensions/no-debug-non-zts-20131226/" />
+            <configuration_option name="extension_dir" value="/Applications/MAMP/bin/php/php7.0.12/lib/php/extensions/no-debug-non-zts-20151012/" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -86,7 +85,7 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/Applications/MAMP/bin/php/php5.6.10/lib/php" />
+            <configuration_option name="include_path" value=".:/Applications/MAMP/bin/php/php7.0.12/lib/php" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
@@ -115,18 +114,7 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memory_limit" value="128M" />
-            <configuration_option name="mysql.allow_local_infile" value="1" />
-            <configuration_option name="mysql.allow_persistent" value="1" />
-            <configuration_option name="mysql.connect_timeout" value="60" />
-            <configuration_option name="mysql.default_host" value="" />
-            <configuration_option name="mysql.default_password" value="" />
-            <configuration_option name="mysql.default_port" value="" />
-            <configuration_option name="mysql.default_socket" value="/Applications/MAMP/tmp/mysql/mysql.sock" />
-            <configuration_option name="mysql.default_user" value="" />
-            <configuration_option name="mysql.max_links" value="-1" />
-            <configuration_option name="mysql.max_persistent" value="-1" />
-            <configuration_option name="mysql.trace_mode" value="" />
+            <configuration_option name="memory_limit" value="-1" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -156,6 +144,7 @@
             <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
+            <configuration_option name="pcre.jit" value="1" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
             <configuration_option name="pdo_mysql.default_socket" value="/Applications/MAMP/tmp/mysql/mysql.sock" />
             <configuration_option name="pgsql.allow_persistent" value="1" />
@@ -193,6 +182,7 @@
             <configuration_option name="session.gc_probability" value="1" />
             <configuration_option name="session.hash_bits_per_character" value="4" />
             <configuration_option name="session.hash_function" value="0" />
+            <configuration_option name="session.lazy_write" value="1" />
             <configuration_option name="session.name" value="PHPSESSID" />
             <configuration_option name="session.referer_check" value="" />
             <configuration_option name="session.save_handler" value="files" />
@@ -230,11 +220,7 @@
             <configuration_option name="variables_order" value="EGPCS" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
-            <configuration_option name="xsl.security_prefs" value="44" />
-            <configuration_option name="yaz.keepalive" value="120" />
-            <configuration_option name="yaz.log_file" value="" />
-            <configuration_option name="yaz.log_mask" value="" />
-            <configuration_option name="yaz.max_links" value="100" />
+            <configuration_option name="zend.assertions" value="1" />
             <configuration_option name="zend.detect_unicode" value="1" />
             <configuration_option name="zend.enable_gc" value="1" />
             <configuration_option name="zend.multibyte" value="0" />
@@ -258,7 +244,6 @@
             <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
-            <extension name="ereg" />
             <extension name="exif" />
             <extension name="fileinfo" />
             <extension name="filter" />
@@ -274,7 +259,6 @@
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
-            <extension name="mysql" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="openssl" />
@@ -296,7 +280,6 @@
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
             <extension name="xsl" />
-            <extension name="yaz" />
             <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>

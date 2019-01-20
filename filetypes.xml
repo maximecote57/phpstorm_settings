@@ -11,7 +11,9 @@
       <mapping pattern="goal_and_title" type="JavaScript" />
       <mapping pattern="test" type="PHP" />
       <mapping pattern="1t" type="PHP" />
+      <mapping ext="twig" type="PHP" />
       <mapping pattern="_htaccess" type="PLAIN_TEXT" />
+      <mapping pattern="dasdas" type="PLAIN_TEXT" />
       <mapping pattern="PlaylistDetailHeader.vue" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="homepage" type="PLAIN_TEXT" />
@@ -19,7 +21,6 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
-      <mapping pattern="dasdas" type="PLAIN_TEXT" />
       <mapping pattern="ItemsListOptions.jsx" type="PLAIN_TEXT" />
       <mapping pattern="map" type="PLAIN_TEXT" />
       <mapping pattern=".hgrc" type="PLAIN_TEXT" />

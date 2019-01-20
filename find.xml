@@ -17,5 +17,6 @@
     <mask>*.php</mask>
     <mask>webpack*.js</mask>
     <mask>*.sass</mask>
+    <mask>*.twig</mask>
   </component>
 </application>

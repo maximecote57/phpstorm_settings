@@ -1,5 +1,5 @@
 <templateSet group="Twig">
-  <template name="lang" value="{{ lang_get('$SELECTION$') }}" toReformat="false" toShortenFQNames="true">
+  <template name="lang" value="{{ lang_get('$SELECTION$') }}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Twig" value="true" />
     </context>
